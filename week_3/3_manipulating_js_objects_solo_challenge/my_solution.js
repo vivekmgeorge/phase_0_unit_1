@@ -45,12 +45,61 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+var adam = {
+  name: "Adam",
+  spouse: terah
+}
 
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+terah.children = {}
+terah.children.carson = {} 
+terah.children.carson.name = "Carson";
+terah.children.carter = {name: "Carter"} 
+terah.children.colton = {name: "Colton"} 
+//terah.spouse.children = terah.children;
 
+adam.children = terah.children;
 
+// MY INITIAL SAMPLE CODE
+// var terah = {
+//   name: "Terah",
+//   age: 32,
+//   height: 66,
+//   weight: 125,
+//   hairColor: "brown",
+//   spouse: "Adam",
+//   children: children = {
+//     carson: carson = {
+//       name: "Carson"
+//     } 
+// }
 
+// var adam = {
+//   name2: "Adam",
+//   spouse2: "Terah",
+//   children: terah.children
+// }
 
+//Pseudocode 
+// adam
+//   adam.name  
+//   adam.spouse = terah
 
+// terah.spouse = adam 
+// change terah.weight = 125
+// delete.tereh.eyeColor
+// tereh.children
+// tereh.children.carson.name
+// tereh.children.carter.name
+// tereh.children.colton.name
+// 
+// 
+// 
+// 
+// 
+// 
 
 
 // __________________________________________
