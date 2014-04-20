@@ -95,12 +95,6 @@ adam.children = terah.children;
 // tereh.children.carter.name
 // tereh.children.colton.name
 // 
-// 
-// 
-// 
-// 
-// 
-
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
